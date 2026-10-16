@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+</head>
+
+<body>
+
+    <!--- Header --->
+    <header>
+        <h1>Welcome to My Personal Profile</h1>
+        <p>Hello! Welcome to my personal webpage.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#education">Education</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Main -->
+    <main>
+
+        <!-- About Me -->
+        <section>
+            <h2>About Me</h2>
+
+            <p>
+                Hello! My name is <b>Jehad Hasan</b>.
+                I am a <i>Computer Science student</i>.
+                I love learning <u>programming</u> and technology.
+                My dream is to become a
+                <mark>Software Engineer</mark>.
+            </p>
+
+            <!-- Profile Image -->
+            <h3>My Profile Picture</h3>
+            <img src="profile.jpg" alt="My Profile Picture" width="200">
+
+            <!-- Additional Information -->
+            <h3>More About Me</h3>
+
+            <details>
+                <summary>Click here to know more about me</summary>
+                <p>
+                    I enjoy coding, solving problems, playing football,
+                    and learning new technologies.
+                </p>
+            </details>
+
+            <!-- Clickable Button -->
+            <br>
+            <button type="button" onclick="alert('Thank you for visiting my profile!')">
+                Click Me
+            </button>
+
+        </section>
+
+        <hr>
+
+        <!-- Education -->
+        <section>
+            <h2>My Academic Information</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Examination</th>
+                    <th>Institution</th>
+                    <th>Result</th>
+                </tr>
+
+                <tr>
+                    <td>SSC</td>
+                    <td>AGSSc</td>
+                    <td>GPA 5.00</td>
+                </tr>
+
+                <tr>
+                    <td>Diploma in Computer Technology</td>
+                    <td>KPI-Khulna</td>
+                    <td>CGPA 3.62</td>
+                </tr>
+
+                <tr>
+                    <td>BSc in Computer Science</td>
+                    <td>ABC</td>
+                    <td>Studying</td>
+                </tr>
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- Multimedia -->
+        <section>
+            <h2>My Favorite Video</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xkZMUX_oQX4?si=3RxoLZSKJSzvVLpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section>
+            <h2>Personal Information Form</h2>
+
+            <form action="#" method="post">
+
+                <!-- Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <!-- Password -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <br><br>
+
+                <!-- Gender Radio Buttons -->
+                <label>Gender:</label>
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <!-- Hobbies Checkboxes -->
+                <label>Hobbies:</label>
+
+                <input type="checkbox" id="coding" name="hobbies" value="Coding">
+                <label for="coding">Coding</label>
+
+                <input type="checkbox" id="football" name="hobbies" value="Football">
+                <label for="football">Football</label>
+
+                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                <label for="reading">Reading</label>
+
+                <br><br>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Submit">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Created by <b>Jehad Hasan</b> </p>
+    </footer>
+
+</body>
+
+</html>
